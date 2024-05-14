@@ -103,7 +103,7 @@ public abstract class CameraActivity extends AppCompatActivity
   private Spinner deviceSpinner;
   private TextView threadsTextView;
 
-  private Model model = Model.QUANTIZED_EFFICIENTNET;
+  private Model model = Model.FLOAT_MOBILENET;
   private Device device = Device.CPU;
   private TextView result;
   String sentence ="";
@@ -498,7 +498,7 @@ public abstract class CameraActivity extends AppCompatActivity
 
         // We don't use a front facing camera in this sample.
         final Integer facing = characteristics.get(CameraCharacteristics.LENS_FACING);
-        if (facing != null && facing == CameraCharacteristics.LENS_FACING_FRONT) {
+        if (facing != null && facing == CameraCharacteristics.LENS_FACING_BACK) {
           continue;
         }
 
