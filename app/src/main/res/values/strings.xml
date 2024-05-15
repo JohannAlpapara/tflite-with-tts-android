@@ -1,5 +1,5 @@
 <resources>
-    <string name="tfe_ic_app_name" translation_description="Image Classification demo app [CHAR_LIMIT=40]">TFL Classify</string>
+    <string name="tfe_ic_app_name" translation_description="Image Classification demo app [CHAR_LIMIT=40]">ASL App</string>
     <string name="tfe_ic_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
     <string name="tfe_ic_gpu_quant_error" translation_description="Error regarding GPU support for Quant models[CHAR_LIMIT=60]">GPU does not yet supported quantized models.</string>
     <string name="tfe_ic_model" translatable="false">Model:</string>
@@ -53,6 +53,29 @@
         <item>X</item>
         <item>Y</item>
         <item>Z</item>
+        <item>Airplane</item>
+        <item>Church</item>
+        <item>Family</item>
+        <item>Fine</item>
+        <item>Hello</item>
+        <item>Help</item>
+        <item>Home</item>
+        <item>I am</item>
+        <item>I hate you</item>
+        <item>I love you</item>
+        <item>Key</item>
+        <item>Lock</item>
+        <item>Love</item>
+        <item>Money</item>
+        <item>No</item>
+        <item>Pray</item>
+        <item>Ship</item>
+        <item>Sorry</item>
+        <item>Stop</item>
+        <item>Telephone</item>
+        <item>Time</item>
+        <item>Water</item>
+        <item>Where</item>
     </string-array>
 
     //MainActivity strings
